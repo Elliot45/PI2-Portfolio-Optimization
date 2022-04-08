@@ -1,0 +1,7 @@
+﻿
+Our project is in collaboration with the company Alten through Armand Leonardi. The goal is to compose an assets’ portfolio using a genetic algorithm on Python.
+We retrieved CAC40 data from Bloomberg and inserted it into MySQL to create a database which was connected to Python to use the data in the algorithm. 
+We then instantiate classes for assets, portfolios and populations. The objective was to reuse them in the crossover, mutation and fitness functions. We then calculated the returns of the portfolios using the rebalancing times and the weight of each asset in the portfolio.
+To obtain the best possible portfolio, they had to be compared using a score assigned to each portfolio. The goal was to maximize the return of the portfolio while minimizing volatility. The Sharpe ratio was therefore the best way to measure the efficiency of portfolios, it allows to compare different assets according to the risk/return ratio.
+The Markovitz theory, to which can be compare the efficiency of our algorithm, uses diversification to optimize the investors' portfolio. It uses the concepts of efficient frontier and the price of an asset, given its risk relative to the average market risk.
+
